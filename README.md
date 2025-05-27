@@ -89,13 +89,19 @@ pip install -r requirements.txt
 uvicorn main:app --host 0.0.0.0 --port 8386
 ```
 
-2. Start the frontend development server:
+2. Start the proxy server:
+
+```bash
+node server.js
+```
+
+3. Start the frontend development server:
 
 ```bash
 npm start
 ```
 
-3. Open your browser and navigate to `http://localhost:3000`
+4. Open your browser and navigate to `http://localhost:3000`
 
 ## Usage
 
